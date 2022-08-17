@@ -29,6 +29,7 @@
   </head>
   <body>
     <div class="mainContainer">
+      <!-- Navbar Section -->
       <nav class="navbar">
         <div
           class="top hidden xl:flex items-center justify-between text-xs px-40 py-2 border-solid border-b border-[#dedfe0]"
@@ -95,7 +96,7 @@
           </svg>
         </div>
         <div class="bottom hidden xl:flex justify-between px-40 py-8">
-            <!-- Rode Logo -->
+          <!-- Rode Logo -->
           <svg
             version="1.1"
             id="Rode_Logo"
@@ -172,7 +173,7 @@
               <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
             </svg>
             <div class="location flex items-center gap-1">
-                <!-- Location Svg -->
+              <!-- Location Svg -->
               <svg
                 width="13"
                 height="18"
@@ -211,6 +212,7 @@
           </div>
           <!-- Rode Logo -->
           <svg
+          class="mr-12"
             version="1.1"
             id="Rode_Logo"
             xmlns="http://www.w3.org/2000/svg"
@@ -267,6 +269,61 @@
           </svg>
         </div>
       </nav>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <!-- CasterPro Container -->
+        <div
+          class="casterPro bg-center bg-no-repeat bg-black lg:bg-[url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg')] lg:h-[700px] flex flex-col lg:flex-row justify-end items-center xl:px-40 xl:py-8"
+        >
+          <!-- Mobile Image -->
+          <img
+            class="lg:hidden"
+            src="https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg"
+            alt=""
+          />
+          <div class="content flex flex-col items-center gap-5 py-3 px-2">
+            <img
+              class="w-[450px] lg:w-[540px]"
+              src="https://edge.rode.com/images/page/1/modules/5813/RODECasterProII_PL_PI_01.svg"
+              alt=""
+            />
+            <div class="text text-center text-white mt-4">
+              <h3 class="text-2xl mb-3">The Revolution Is Here</h3>
+              <p class="text-[#ffffff80] mb-6">
+                The RØDECaster Pro II is the world's most powerful all-in-one
+                <br />
+                audio solution for streamers, podcasters, musicians, and
+                creators. <br />
+                Take your content to the next level.
+              </p>
+            </div>
+            <div class="btns flex items-center gap-2">
+              <a class="text-mainColor flex font-semibold" href="#">
+                LEARN MORE
+                <!-- Forward Arrow Svg -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#AD9970"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"
+                  />
+                </svg>
+              </a>
+              <button
+                class="text-white py-2 px-6 bg-mainColor rounded-3xl font-semibold"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </section>
     </div>
   </body>
 </html>
