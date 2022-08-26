@@ -1,6 +1,8 @@
 # Rode Clone
 
-- Completed this project using Tailwindcss and HTML
+- I created a homepage for RODE that is an exact replica of the homepage for the company's official website. 
+- I used Tailwind CSS, HTML, and a little bit of CSS to create this project. 
+- It is fully responsive for all screen sizes.
 
 - It took me around **6 hour** to complete the project.
 
